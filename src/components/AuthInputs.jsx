@@ -28,7 +28,7 @@ export default function AuthInputs() {
           <input
             type="email"
             className={emailNotValid ? 'invalid' : undefined}
-            onChange={(event) => handleInputChange('email', event.target.value)}
+            onChange={(e) => handleInputChange('email', event.target.value)}
           />
         </p>
         <p>
@@ -36,7 +36,7 @@ export default function AuthInputs() {
           <input
             type="password"
             className={passwordNotValid ? 'invalid' : undefined}
-            onChange={(event) =>
+            onChange={(e) =>
               handleInputChange('password', event.target.value)
             }
           />
