@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "./components/Header";
+import AuthInputs from "./components/AuthInputs";
 
 export default function App () {
   return (
     <>
-      <h1>Hello World</h1>
+      <Header />
+      <main>
+        <AuthInputs />
+      </main>
     </>
   )
 }
